@@ -1,0 +1,29 @@
+body{
+    background-image: url(https://img.pikbest.com/backgrounds/20191125/liquid-background-design-for-your-landing-page-or-flyer-poster-v_1601874jpg!bw700);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+.main{
+background-color: black;
+color: white;
+justify-content: center;
+text-align: center;
+width: 50%;
+height: 75vh;
+margin-left: 300px;
+margin-top: 80px;
+font-family: sans-serif;
+padding-top: 10px;
+}
+.main>h1{
+    margin-top: 10px;
+}
+@media (max-width: 768px) {
+    .main{
+        margin-left: 50px;
+  width: 70%;
+  height: 55vh;
+    }
+}
